@@ -30,40 +30,40 @@ def colombia(request):
         'subtitle1':'Cuenta con una población de 51.52 millones de personas',
         'subtitle2':'Una de sus comidas típícas es la sopa de fríjol cabeza negra',
         'subtitle3':'Su capital es Bogotá',
-        'imagen1':'imagenes/producto.jpg',
-        'imagen2':'imagenes/producto.jpg',
-        'imagen3':'imagenes/producto.jpg',
+        'imagen1':'imagenes/habitantes_colombia.jpg',
+        'imagen2':'imagenes/comida_colombia.jpg',
+        'imagen3':'imagenes/capital_colombia.jpg',
     }
     return render(request,'templatesEva2Backend/index.html',data)
 
 def chile(request):
     data={
-        "main":"Colombia",
+        "main":"Chile",
         'title1':"Habitantes",
         'title2':"Comida típica",
         'title3':"Capital",
-        'submain':'Se fundó el 20 de Julio de 1810',
-        'subtitle1':'Cuenta con una población de 51.52 millones de personas',
-        'subtitle2':'Una de sus comidas típícas es la sopa de fríjol cabeza negra',
-        'subtitle3':'Su capital es Bogotá',
-        'imagen1':'imagenes/producto.jpg',
-        'imagen2':'imagenes/producto.jpg',
-        'imagen3':'imagenes/producto.jpg',
+        'submain':'Se fundó el 12 de Febrero de 1818',
+        'subtitle1':'Cuenta con una población de 19.49 millones de personas',
+        'subtitle2':'Una de sus comidas típícas es la cazuela',
+        'subtitle3':'Su capital es Santiago',
+        'imagen1':'imagenes/habitantes_chile.jpg',
+        'imagen2':'imagenes/comida_chile.jpg',
+        'imagen3':'imagenes/campital_chile.jpg',
     }
     return render(request,'templatesEva2Backend/index.html',data)
 
 def argentina(request):
     data={
-        "main":"Colombia",
+        "main":"Argentina",
         'title1':"Habitantes",
         'title2':"Comida típica",
         'title3':"Capital",
-        'submain':'Se fundó el 20 de Julio de 1810',
-        'subtitle1':'Cuenta con una población de 51.52 millones de personas',
-        'subtitle2':'Una de sus comidas típícas es la sopa de fríjol cabeza negra',
-        'subtitle3':'Su capital es Bogotá',
-        'imagen1':'imagenes/producto.jpg',
-        'imagen2':'imagenes/producto.jpg',
-        'imagen3':'imagenes/producto.jpg',
+        'submain':'Se fundó el 9 de Julio de 1816',
+        'subtitle1':'Cuenta con una población de 45.81 millones de personas',
+        'subtitle2':'Una de sus comidas típícas es el asado argentino',
+        'subtitle3':'Su capital es Buenos Aires',
+        'imagen1':'imagenes/habitantes_argentina.jpg',
+        'imagen2':'imagenes/comida_argentina.png',
+        'imagen3':'imagenes/capital_argentina.jpeg',
     }
-    return render(request,'eva2backend/index.html',data)
+    return render(request,'templatesEva2Backend/index.html',data)
