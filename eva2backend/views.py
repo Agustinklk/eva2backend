@@ -17,6 +17,12 @@ def principal(request):
         'imagen1':'imagenes/bandera_colombia.jpg',
         'imagen2':'imagenes/bandera_chile.jpg',
         'imagen3':'imagenes/bandera_argentina.jpg',
+        'url1':'http://127.0.0.1:8000/backend/colombia/',
+        'url2':'http://127.0.0.1:8000/backend/chile/',
+        'url3':'http://127.0.0.1:8000/backend/argentina/',
+        'text1':'Ir a Colombia',
+        'text2':'Ir a Chile',
+        'text3':'Ir a Argentina',
     }
     return render(request,'templatesEva2Backend/index.html',data)
 
@@ -33,6 +39,12 @@ def colombia(request):
         'imagen1':'imagenes/habitantes_colombia.jpg',
         'imagen2':'imagenes/comida_colombia.jpg',
         'imagen3':'imagenes/capital_colombia.jpg',
+        'url1':'http://127.0.0.1:8000/backend/index/',
+        'url2':'http://127.0.0.1:8000/backend/chile/',
+        'url3':'http://127.0.0.1:8000/backend/argentina/',
+        'text1':'Volver al inicio',
+        'text2':'Ir a Chile',
+        'text3':'Ir a Argentina',
     }
     return render(request,'templatesEva2Backend/index.html',data)
 
@@ -49,6 +61,12 @@ def chile(request):
         'imagen1':'imagenes/habitantes_chile.jpg',
         'imagen2':'imagenes/comida_chile.jpg',
         'imagen3':'imagenes/campital_chile.jpg',
+        'url1':'http://127.0.0.1:8000/backend/index/',
+        'url2':'http://127.0.0.1:8000/backend/colombia/',
+        'url3':'http://127.0.0.1:8000/backend/argentina/',
+        'text1':'Volver al inicio',
+        'text2':'Ir a Colombia',
+        'text3':'Ir a Argentina',
     }
     return render(request,'templatesEva2Backend/index.html',data)
 
@@ -65,5 +83,11 @@ def argentina(request):
         'imagen1':'imagenes/habitantes_argentina.jpg',
         'imagen2':'imagenes/comida_argentina.png',
         'imagen3':'imagenes/capital_argentina.jpeg',
+        'url1':'http://127.0.0.1:8000/backend/index/',
+        'url2':'http://127.0.0.1:8000/backend/chile/',
+        'url3':'http://127.0.0.1:8000/backend/colombia/',
+        'text1':'Volver al inicio',
+        'text2':'Ir a Chile',
+        'text3':'Ir a Colombia',
     }
     return render(request,'templatesEva2Backend/index.html',data)
