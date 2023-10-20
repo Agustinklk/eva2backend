@@ -17,10 +17,12 @@ from django.contrib import admin
 from django.urls import path
 
 from productosApp.views import *
+from eva2backend.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("",index),
-    path("juguetes/",juguetes),
-    path("electronica/",electronica),
-    path("ropa/",ropa),
+    path("productos/index/",index),
+    path("productos/juguetes/",juguetes),
+    path("productos/electronica/",electronica),
+    path("productos/ropa/",ropa),
+    path("backend/index/",eval),
 ]
