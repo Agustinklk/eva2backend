@@ -24,5 +24,8 @@ urlpatterns = [
     path("productos/juguetes/",juguetes),
     path("productos/electronica/",electronica),
     path("productos/ropa/",ropa),
-    path("backend/index/",eval),
+    path("backend/index/",principal),
+    path("backend/colombia/",colombia),
+    path("backend/chile/",chile),
+    path("backend/argentina/",argentina),
 ]
